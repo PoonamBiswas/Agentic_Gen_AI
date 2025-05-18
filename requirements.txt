@@ -1,0 +1,34 @@
+# Core dependencies
+pandas==2.1.0
+numpy==1.26.0
+matplotlib==3.8.0
+
+# NLP and text processing
+nltk==3.8.1
+spacy==3.7.2
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.23.0  # For optimal fuzzywuzzy performance
+
+# Geospatial calculations and mapping
+geopy==2.4.0
+folium==0.14.0
+streamlit-folium==0.15.0
+
+# API and web server (if building as a service)
+fastapi==0.104.1
+uvicorn==0.23.2
+pydantic==2.4.2
+
+# Development and testing
+pytest==7.4.3
+pytest-cov==4.1.0
+
+# UI and visualization
+streamlit==1.27.0
+
+# Utilities
+python-dotenv==1.0.0
+tqdm==4.66.1
+
+# Note: After installation, run:
+# python -m spacy download en_core_web_sm
